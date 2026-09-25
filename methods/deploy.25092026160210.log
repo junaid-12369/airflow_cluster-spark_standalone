@@ -1,7 +1,0 @@
-[2026-09-25 16:02:10] === 172.31.8.214 === ensuring remote directory exists
-[2026-09-25 16:02:10] === 172.31.8.214 === copying env.json, methods.sh, executable.sh
-[2026-09-25 16:02:10] === 172.31.8.214 === running executable.sh remotely
-Executing: airflow_worker_install
-Successfully executed: airflow_worker_install
-[2026-09-25 16:04:31] === 172.31.8.214: SUCCESS ===
-[2026-09-25 16:04:31] Deployment complete: 1/1 hosts succeeded.
