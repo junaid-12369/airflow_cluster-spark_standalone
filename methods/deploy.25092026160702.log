@@ -1,0 +1,8 @@
+[2026-09-25 16:07:02] === 172.31.13.3 === ensuring remote directory exists
+[2026-09-25 16:07:03] === 172.31.13.3 === copying env.json, methods.sh, executable.sh
+[2026-09-25 16:07:03] === 172.31.13.3 === running executable.sh remotely
+Executing: spark_standalone_install
+Error executing: spark_standalone_install
+[2026-09-25 16:07:47] === 172.31.13.3: FAILED (remote install) -- see ./deploy.25092026160702.log ===
+[2026-09-25 16:07:47] Deployment finished with failures on: 172.31.13.3 (0/1 succeeded)
+[2026-09-25 16:07:47] Full details in ./deploy.25092026160702.log

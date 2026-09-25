@@ -1,0 +1,5 @@
+[2026-09-25 15:52:25] === 172.31.37.239 (control server itself) === running locally
+Executing: airflow_scheduler_install
+Successfully executed: airflow_scheduler_install
+[2026-09-25 15:52:47] === 172.31.37.239: SUCCESS (local) ===
+[2026-09-25 15:52:47] Deployment complete: 1/1 hosts succeeded.

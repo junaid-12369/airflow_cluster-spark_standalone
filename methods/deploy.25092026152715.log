@@ -1,0 +1,24 @@
+[2026-09-25 15:27:15] === 172.31.37.239 (control server itself) === running locally
+Executing: airflow_scheduler_install
+Error executing: airflow_scheduler_install
+[2026-09-25 15:30:05] === 172.31.37.239: FAILED (local) -- see ./deploy.25092026152715.log ===
+[2026-09-25 15:30:05] === 172.31.0.85 === ensuring remote directory exists
+[2026-09-25 15:30:05] === 172.31.0.85 === copying env.json, methods.sh, executable.sh
+[2026-09-25 15:30:06] === 172.31.0.85 === running executable.sh remotely
+Executing: airflow_worker_install
+Error executing: airflow_worker_install
+[2026-09-25 15:30:10] === 172.31.0.85: FAILED (remote install) -- see ./deploy.25092026152715.log ===
+[2026-09-25 15:30:10] === 172.31.8.214 === ensuring remote directory exists
+[2026-09-25 15:30:11] === 172.31.8.214 === copying env.json, methods.sh, executable.sh
+[2026-09-25 15:30:11] === 172.31.8.214 === running executable.sh remotely
+Executing: airflow_worker_install
+Error executing: airflow_worker_install
+[2026-09-25 15:30:14] === 172.31.8.214: FAILED (remote install) -- see ./deploy.25092026152715.log ===
+[2026-09-25 15:30:14] === 172.31.13.3 === ensuring remote directory exists
+[2026-09-25 15:30:15] === 172.31.13.3 === copying env.json, methods.sh, executable.sh
+[2026-09-25 15:30:15] === 172.31.13.3 === running executable.sh remotely
+Executing: spark_standalone_install
+Error executing: spark_standalone_install
+[2026-09-25 15:31:39] === 172.31.13.3: FAILED (remote install) -- see ./deploy.25092026152715.log ===
+[2026-09-25 15:31:39] Deployment finished with failures on: 172.31.37.239 172.31.0.85 172.31.8.214 172.31.13.3 (0/4 succeeded)
+[2026-09-25 15:31:39] Full details in ./deploy.25092026152715.log
