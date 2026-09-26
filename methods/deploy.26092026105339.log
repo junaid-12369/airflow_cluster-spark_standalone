@@ -1,0 +1,23 @@
+[2026-09-26 10:53:39] === 172.31.37.239 (control server itself) === running locally
+Executing: airflow_scheduler_install
+Successfully executed: airflow_scheduler_install
+[2026-09-26 10:55:11] === 172.31.37.239: SUCCESS (local) ===
+[2026-09-26 10:55:11] === 172.31.0.85 === ensuring remote directory exists
+[2026-09-26 10:55:12] === 172.31.0.85 === copying env.json, methods.sh, executable.sh
+[2026-09-26 10:55:12] === 172.31.0.85 === running executable.sh remotely
+Executing: airflow_worker_install
+Successfully executed: airflow_worker_install
+[2026-09-26 10:58:11] === 172.31.0.85: SUCCESS ===
+[2026-09-26 10:58:11] === 172.31.8.214 === ensuring remote directory exists
+[2026-09-26 10:58:11] === 172.31.8.214 === copying env.json, methods.sh, executable.sh
+[2026-09-26 10:58:12] === 172.31.8.214 === running executable.sh remotely
+Executing: airflow_worker_install
+Successfully executed: airflow_worker_install
+[2026-09-26 11:00:48] === 172.31.8.214: SUCCESS ===
+[2026-09-26 11:00:48] === 172.31.13.3 === ensuring remote directory exists
+[2026-09-26 11:00:49] === 172.31.13.3 === copying env.json, methods.sh, executable.sh
+[2026-09-26 11:00:49] === 172.31.13.3 === running executable.sh remotely
+Executing: spark_standalone_install
+Successfully executed: spark_standalone_install
+[2026-09-26 11:01:36] === 172.31.13.3: SUCCESS ===
+[2026-09-26 11:01:36] Deployment complete: 4/4 hosts succeeded.
